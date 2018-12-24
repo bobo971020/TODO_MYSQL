@@ -1,5 +1,6 @@
 USE test_db;
 
+# =============================2018-12-24==============================
 
 -- CREATE TABLE tb_emp1
 -- ( 
@@ -56,13 +57,13 @@ USE test_db;
 -- );
 
 # 创建tb_emp6，指定员工名称不能为空
-CREATE TABLE tb_emp6
-(
-id int(11) PRIMARY KEY,
-name VARCHAR(22) NOT NULL,
-location VARCHAR(50),
-salatry FLOAT
-);
+-- CREATE TABLE tb_emp6
+-- (
+-- id int(11) PRIMARY KEY,
+-- name VARCHAR(22) NOT NULL,
+-- location VARCHAR(50),
+-- salatry FLOAT
+-- );
 
 	
 
